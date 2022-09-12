@@ -1,7 +1,7 @@
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 
-refs = {
+const refs = {
   input: document.querySelector('[id="datetime-picker"]'),
   startBtn: document.querySelector('[data-start]'),
   timer: document.querySelector('.timer'),
